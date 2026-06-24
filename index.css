@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 30px;
+    background-color: #f5f5f5;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links a:hover{
+    color: orange;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url("./srilaa.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    right: 50px;
+    position: absolute;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    margin-top: -130px;
+    margin-left: -10px;
+}
+
+.hero-content p{
+    font-size: 25px;
+   
+}
+
+button{
+    font-size: 35px;
+    border-radius: 60px;
+    margin-top: 40px;
+    padding: 1px;
+    background-color: transparent;
+    border: none;
+}
+
+
+    button a{
+    color: rgb(248, 145, 9);
+    text-decoration: none;
+    transition: 0.3s;
+    background: whitesmoke;
+    border-radius: 90px;
+    padding: 5px;
+    border: none;
+    }
+
+
+button a:hover{
+    color: black;
+    background-color: transparent;
+    border: 2px whitesmoke;
+
+}
+
+.sr{
+    margin-right: 100px;
+    margin-top: 400px;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    flex-direction: left;
+}
+
+.scroll{
+    display: flex;
+    justify-content: center;
+      
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    width: 180px;
+    display: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.dropdown-menu li{
+    padding: 12px;
+}
+
+.dropdown-menu li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropdown-menu li:hover{
+    background: #f4f4f4;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
