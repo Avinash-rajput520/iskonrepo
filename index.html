@@ -13,9 +13,9 @@
         <img src="ISKCON.png" alt="ISKCON Logo" class="logo">
     </a>
 
-    <div class="menu-btn">☰</div>
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
 
-    
+
     <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="temple.html">Temple</a></li>
@@ -42,6 +42,12 @@
     </div>
     <div class="sr"><p>A. C. Bhaktivedanta Swami Prabhupada<BR><i>"Srila Prabhupad"</i></p></div>
 </section>
+
+<script>
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("active");
+}
+</script>
 
 </body>
 </html>
