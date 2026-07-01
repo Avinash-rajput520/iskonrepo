@@ -76,3 +76,21 @@ nav ul{
 .dropdown:hover .dropdown-menu{
     display: block;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background: white;
+}
+
+.hero{
+    width: 100%;
+    height: calc(100vh - 90px); /* Header ki height minus */
+    background: url("./aa3.jpg") center center/cover no-repeat;
+}
